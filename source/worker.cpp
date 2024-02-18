@@ -1,7 +1,7 @@
 #include <fmt/format.h>
 #include <worker/worker.h>
 
-using namespace Worker;
+using namespace worker;
 
 Worker::Worker(std::string _name) : name(std::move(_name)) {}
 

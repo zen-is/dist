@@ -7,11 +7,11 @@
 #include <unordered_map>
 
 auto main(int argc, char** argv) -> int {
-  const std::unordered_map<std::string, Worker::LanguageCode> languages{
-      {"en", Worker::LanguageCode::EN},
-      {"de", Worker::LanguageCode::DE},
-      {"es", Worker::LanguageCode::ES},
-      {"fr", Worker::LanguageCode::FR},
+  const std::unordered_map<std::string, worker::LanguageCode> languages{
+      {"en", worker::LanguageCode::EN},
+      {"de", worker::LanguageCode::DE},
+      {"es", worker::LanguageCode::ES},
+      {"fr", worker::LanguageCode::FR},
   };
 
   cxxopts::Options options(*argv, "A program to welcome the world!");
@@ -46,7 +46,7 @@ auto main(int argc, char** argv) -> int {
     return 1;
   }
 
-  Worker::Worker worker(name);
+  worker::Worker worker(name);
   std::cout << worker.work(langIt->second) << std::endl;
 
   return 0;

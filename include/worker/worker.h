@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace Worker {
+namespace worker {
 
   /**  Language codes to be used with the Worker class */
   enum class LanguageCode { EN, DE, ES, FR };
