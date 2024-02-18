@@ -5,7 +5,7 @@
 #include <string>
 
 TEST_CASE("Worker") {
-  using namespace Worker;
+  using namespace worker;
 
   Worker worker("Tests");
 
