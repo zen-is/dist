@@ -30,7 +30,7 @@ jobs:
         run: cmake -Stest -Bbuild
 
       - name: build
-        run: cmake --build build --config Debug -j4 --compile-no-warning-as-error
+        run: cmake --build build --config Debug -j4
 
       - name: test
         run: |

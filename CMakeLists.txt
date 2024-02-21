@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.14...3.22)
+set(CMAKE_COMPILE_WARNING_AS_ERROR OFF)
 
 # ---- Project ----
 
