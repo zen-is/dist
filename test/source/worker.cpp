@@ -1,6 +1,6 @@
 #include <doctest/doctest.h>
-#include <worker/worker.h>
 #include <worker/version.h>
+#include <worker/worker.h>
 
 #include <string>
 

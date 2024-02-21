@@ -1,5 +1,5 @@
-#include <worker/worker.h>
 #include <worker/version.h>
+#include <worker/worker.h>
 
 #include <cxxopts.hpp>
 #include <iostream>
